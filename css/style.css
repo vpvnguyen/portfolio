@@ -190,6 +190,11 @@ Home sections
 	padding: 150px 0px 150px 0px;
 }
 
+.bottom-section {
+	width: 100%;
+	padding: 100px 0px 100px 0px;
+}
+
 /* --- heading --- */
 .section-heading {
 	margin-bottom: 50px;
@@ -660,6 +665,7 @@ Bottom widget
 ================================= */
 #bottom-widget {
   overflow: hidden;
+  padding-bottom: 100px;
 }
 ul.social-network {
 	margin: 0;
