@@ -337,7 +337,7 @@ About
 }
 
 #about .content h2 {
-  color: #333;
+  color: #bcbcb2;
   font-weight: 300;
   font-size: 24px;
   text-align: left;
@@ -551,7 +551,7 @@ Works
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.6em;
-	color: #555;
+	color: #bcbcb2;
 }
 
 .og-details a {
@@ -628,8 +628,8 @@ Contact
 }
 
 #sendmessage {
-  color: green;
-  border:1px solid green;
+  color: #bcbcb2;
+  border:1px solid #bcbcb2;
   display:none;
   text-align:center;
   padding:15px;
@@ -681,7 +681,7 @@ ul.social-network li {
 
 
 ul.social-network li a:hover span .fa-circle {
-	color: #2b2b2b;
+	color: #bcbcb2;
 }
 
 ul.social-network li a i{
