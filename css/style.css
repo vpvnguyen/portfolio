@@ -1,10 +1,3 @@
-/*
-  Theme Name: Alstar
-  Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com
-*/
-
 /* ================================
 Imports
 ================================= */
@@ -221,11 +214,11 @@ Home sections
 /* --- section bg var --- */
 
 .bg-white {
-	background: #fff;
+	background: #d4d4d4;
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #d4d4d4;
 }
 
 .bg-dark {
