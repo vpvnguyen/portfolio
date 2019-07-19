@@ -12,7 +12,9 @@ General
 
 body{
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'Nunito Sans', sans-serif;
+
 	font-size: 14px;
 	line-height: 1.6em;
 }
@@ -34,15 +36,18 @@ h5 {
 }
 h6 {
 	font-size: 18px;
+	padding: 5px;
+	margin: 5px;
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	color: #3a3a3a;
 	font-weight: 700;
 	margin-bottom: 20px;
-	font-family: 'Montserrat', sans-serif;
-}
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Nunito Sans', sans-serif;
 
+}
 
 .lead{
 	font-weight: 400;
@@ -187,7 +192,7 @@ Home sections
 
 .home-section {
 	width: 100%;
-	padding: 150px 0px 150px 0px;
+	padding: 120px 0px 120px 0px;
 }
 
 .bottom-section {
