@@ -139,7 +139,7 @@ nav.navbar{
 	position: fixed;
 	top: -72px;
 	margin-bottom: 0px;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 60px 0px;
 	width: 100%;
 	border-radius: 0px;
 	transition: all 0.2s;
@@ -436,7 +436,7 @@ Services
 Works
 ================================= */
 .og-grid {
-	list-style: none;
+	/* list-style: none; */
 	padding: 20px 0;
 	margin: 0 auto;
 	text-align: center;
