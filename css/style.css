@@ -253,9 +253,11 @@ Parallax
 
 #parallax1{
 	background-image: url(../img/parallax/1.jpg);
+	margin-top: -25px;
 }
 #parallax2{
 	background-image: url(../img/parallax/2.jpg);
+	margin-top: -25px;
 }
 
 
