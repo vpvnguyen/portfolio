@@ -15,12 +15,12 @@ body{
 	/* font-family: 'Open Sans', sans-serif; */
 	font-family: 'Nunito Sans', sans-serif;
 
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.6em;
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 40px;
 }
 h2 {
 	font-size: 32px;
@@ -44,7 +44,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	color: #3a3a3a;
 	font-weight: 700;
 	margin-bottom: 20px;
-	/* font-family: 'Montserrat', sans-serif; */
 	font-family: 'Nunito Sans', sans-serif;
 
 }
@@ -532,7 +531,7 @@ Works
 }
 
 .og-details {
-	padding: 0 40px 0 0;
+	padding: 0 40px 0 20px;
 }
 
 .og-fullimg {
