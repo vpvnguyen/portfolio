@@ -85,7 +85,12 @@ button.navbar-toggle {
 	border-color: #999;
 	color: #999;
 }
-
+.nav-buttons {
+	color: white;
+}
+.nav-buttons:hover {
+	color: white;
+}
 
 /* ================================
 margin, padding
@@ -138,7 +143,7 @@ nav.navbar{
 	position: fixed;
 	top: -72px;
 	margin-bottom: 0px;
-	padding: 10px 0px 60px 0px;
+	/* padding: 10px 0px 60px 0px; */
 	width: 100%;
 	border-radius: 0px;
 	transition: all 0.2s;
