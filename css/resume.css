@@ -135,6 +135,13 @@ section:last-child {
 	margin-bottom: -2px;
 }
 
+.work-exp-spacing {
+	padding-bottom: 15px;
+}
+.no-bullet {
+	list-style-type: none;
+}
+
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
