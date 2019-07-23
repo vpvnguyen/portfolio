@@ -9,7 +9,10 @@ Imports
 /* ================================
 General
 ================================= */
-
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
 body{
 	text-align: center;
 	/* font-family: 'Open Sans', sans-serif; */
