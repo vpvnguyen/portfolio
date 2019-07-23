@@ -9,6 +9,7 @@ Imports
 /* ================================
 General
 ================================= */
+/* wraps nav and container */
 html, body {
 	max-width: 100%;
 	overflow-x: hidden;
