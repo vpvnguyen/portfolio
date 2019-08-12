@@ -23,6 +23,9 @@
       <span><a class="btn btn-theme nav-buttons" href="#portfolio">My Work</a></span>
       <span><a class="btn btn-theme nav-buttons" href="#about">Resume</a></span>
       <span><a class="btn btn-theme nav-buttons" href="#contact">Contact</a></span>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
     </div>
   </nav>
 
@@ -93,11 +96,12 @@
               <img src="img/works/thumbs/guess-pokemon-250x250.jpg" alt="Hangman" />
             </a>
           </li>
-          <!-- discord bot -->
+          <!-- bamazon -->
           <li>
-            <a href="https://discordapp.com/" target="_blank" data-largesrc="img/works/discord-bot-color-500x500.png"
-              data-title="Discord Bot" data-description="Guide to starting your own Discord bot! Setup using Python.">
-              <img src="img/works/thumbs/discord-bot-250x250.png" alt="Discord Bot" />
+            <a href="https://github.com/vpvnguyen/node-mysql" target="_blank" data-largesrc="img/works/ecommerce-3.jpeg"
+              data-title="Ecommerce CLI Store Front & Management"
+              data-description="Create an Amazon-like store front and management system. This Command Line Interface application was built using Node.js and MySQL.">
+              <img src="img/works/thumbs/purchase-icon_250x250.png" alt="BamAzon" />
             </a>
           </li>
           <!-- trivia -->
@@ -284,6 +288,17 @@
   <script src="js/grid.js"></script>
   <script src="js/stellar.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    // When the user scrolls the page, execute scrollBar 
+    window.onscroll = function () { scrollBar() };
+
+    function scrollBar() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
 
 </body>
 
