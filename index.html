@@ -68,7 +68,7 @@
           <li>
             <a href="https://vpvnguyen.github.io/project-1/" target="_blank" data-largesrc="img/works/seo-500x500.png"
               data-title="Vision"
-              data-description="Built on Google Machine Learning / AI Platform. Take a picture or upload an image to Vision. Vision will analyze the image and recommend the perfect trending hashtags or relevant SEO for your needs!">
+              data-description="Built on Google Cloud Machine Learning / AI Platform. Take a picture or upload an image to Vision. Vision will analyze the image and recommend the perfect trending hashtags or relevant SEO for your needs! (Google Vision API, Google Firebase, JavaScript)">
               <img src="img/works//thumbs/google-cloud-service-250x250.jpg" alt="Vision" />
             </a>
           </li>
@@ -76,7 +76,7 @@
           <li>
             <a href="https://vpvnguyen.github.io/giphy-api/" target="_blank"
               data-largesrc="img/works/nyan-cat-500x500.jpg" data-title="Gif Generator!"
-              data-description="Search through a library of thousands of gifs! Find the perfect gif for your needs!">
+              data-description="Utilizes Giphy API to search through thousands of gifs. Create and save your own search topics using local persistence. Download and send your favorite gifs to your friends! (Giphy API, JavaScript)">
               <img src="img/works/thumbs/giphy-logo-250x250.png" alt="Gif Generator" />
             </a>
           </li>
@@ -84,7 +84,7 @@
           <li>
             <a href="https://github.com/vpvnguyen/node-mysql" target="_blank" data-largesrc="img/works/ecommerce-3.jpeg"
               data-title="Ecommerce CLI Store Front & Management"
-              data-description="Create an Amazon-like store front and management system. This Command Line Interface application was built using Node.js and MySQL.">
+              data-description="In this Command Line Interface app, the client can create an Amazon-like store front and management system. Create, read, update, and delete information in the store's database. (MySQL, Node.js">
               <img src="img/works/thumbs/purchase-icon_250x250.png" alt="BamAzon" />
             </a>
           </li>
@@ -92,7 +92,7 @@
           <li>
             <a href="https://vpvnguyen.github.io/word-guess/" target="_blank"
               data-largesrc="img/works/buterfree-500x500.jpg" data-title="Play Hangman!"
-              data-description="A PokeMon themed hangman game! Test your knowledge of the original 151 PokeMon! Must be played on a physical keyboard.">
+              data-description="A word guess game where the player trys to guess a randomized list of 151 PokeMon. This app requires a physical keyboard to play. (JavaScript)">
               <img src="img/works/thumbs/guess-pokemon-250x250.jpg" alt="Hangman" />
             </a>
           </li>
@@ -100,7 +100,7 @@
           <li>
             <a href="https://www.palitdining.com/" target="_blank" data-largesrc="img/works/fine-dining-500x500.jpg"
               data-title="Palit"
-              data-description="Palit Dining at your service! A private catering company providing fine dining experiences in the comfort of the client's home.">
+              data-description="Palit Dining at your service! A private catering company providing fine dining experiences in the comfort of the client's home. (JavaScript)">
               <img src="img/works/thumbs/web-design-250x250.png" alt="Palit Dining" />
             </a>
           </li>
@@ -108,8 +108,8 @@
           <li>
             <a href="https://vpvnguyen.github.io/TriviaGame/" target="_blank"
               data-largesrc="img/works/professoroak-500x500.png" data-title="Trivia Game"
-              data-description="PokeMon themed trivia game! Player has 15 seconds to answer each question! Are you a PokeMon Master?">
-              <img src="img/works/thumbs/trivia-night-250x250.jpg" alt="img01" />
+              data-description="Time based trivia game where the player have 15 seconds before the timer runs out. (JavaScript)">
+              <img src="img/works/thumbs/trivia-night-250x250.jpg" alt="Trivia" />
             </a>
           </li>
         </ul>
@@ -201,7 +201,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-4 mb-2">
+          <div class="col-md-4 mb-2 pb-2">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <h5>Social Media</h5>
               <ul class="social-network">
@@ -288,17 +288,7 @@
   <script src="js/grid.js"></script>
   <script src="js/stellar.js"></script>
   <script src="js/custom.js"></script>
-  <script>
-    // When the user scrolls the page, execute scrollBar 
-    window.onscroll = function () { scrollBar() };
-
-    function scrollBar() {
-      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      var scrolled = (winScroll / height) * 100;
-      document.getElementById("myBar").style.width = scrolled + "%";
-    }
-  </script>
+  <script src="js/custom.scrollBar.js"></script>
 
 </body>
 
